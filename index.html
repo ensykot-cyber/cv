@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md. Sykot Ibne Masud | Avionics Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:'Segoe UI',sans-serif;
+background:#081120;
+color:white;
+overflow-x:hidden;
+}
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(8,17,32,.75),rgba(8,17,32,.85)),
+url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+.hero h1{
+font-size:clamp(2.5rem,7vw,5rem);
+animation:fadeIn 1.5s ease;
+}
+.hero p{font-size:1.2rem;margin-top:15px;color:#cbd5e1}
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+background:#0ea5e9;
+border-radius:30px;
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+.btn:hover{transform:translateY(-3px)}
+.container{max-width:1200px;margin:auto;padding:40px 20px}
+.card{
+background:rgba(255,255,255,.06);
+backdrop-filter:blur(8px);
+border:1px solid rgba(255,255,255,.1);
+padding:25px;
+border-radius:20px;
+margin-bottom:25px;
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 30px rgba(14,165,233,.25);
+}
+h2{color:#38bdf8;margin-bottom:15px}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+ul{padding-left:20px}
+.banner{
+height:300px;
+background:url('https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?auto=format&fit=crop&w=1400&q=80');
+background-size:cover;
+background-position:center;
+border-radius:20px;
+margin:20px 0;
+}
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+margin-top:30px;
+}
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(30px)}
+to{opacity:1;transform:translateY(0)}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div>
+<h1>Md. Sykot Ibne Masud</h1>
+<p>Avionics Engineering Student • Future Aerospace Professional</p>
+<a href="#about" class="btn">Explore Portfolio</a>
+</div>
+</section>
+
+<div class="container">
+
+<div class="banner"></div>
+
+<div class="grid">
+<div class="card" id="about">
+<h2>About Me</h2>
+<p>I am currently pursuing a B.Sc. in Avionics Engineering at Aviation and Aerospace University, Bangladesh. Passionate about aviation systems, aerospace technology, innovation, and continuous learning.</p>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>📍 Farakkabad, Birol, Dinajpur, Bangladesh</p>
+<p>📞 01757976927</p>
+<p>✉️ sykot927@gmail.com</p>
+</div>
+</div>
+
+<div class="card">
+<h2>Education</h2>
+<ul>
+<li>B.Sc. in Avionics Engineering – Aviation and Aerospace University, Bangladesh (Present)</li>
+<li>HSC (2024) – GPA 5.00</li>
+<li>SSC (2022) – GPA 5.00</li>
+</ul>
+</div>
+
+<div class="grid">
+<div class="card">
+<h2>Technical Skills</h2>
+<ul>
+<li>Microsoft Office Suite</li>
+<li>Basic Web Development</li>
+<li>C Programming</li>
+<li>Problem Solving</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Languages</h2>
+<ul>
+<li>Bangla – Fluent</li>
+<li>English – Advanced</li>
+<li>Hindi – Intermediate</li>
+</ul>
+</div>
+</div>
+
+<div class="grid">
+<div class="card">
+<h2>Experience</h2>
+<p>Private Tutor for Class 8 Student (2 Months)</p>
+</div>
+
+<div class="card">
+<h2>Volunteer Work</h2>
+<p>Contributed to logistics and operational activities during the 7th Rising Day event.</p>
+</div>
+</div>
+
+<div class="card">
+<h2>Hobbies & Interests</h2>
+<ul>
+<li>Watching Movies</li>
+<li>Reading Non‑fiction Books</li>
+<li>Travelling</li>
+<li>Aviation & Aerospace Technology</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<h3>Ready for the Future of Aviation ✈</h3>
+<p>© 2026 Md. Sykot Ibne Masud</p>
+</footer>
+
+</body>
+</html>
